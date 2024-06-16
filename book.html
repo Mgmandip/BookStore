@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Book Haven</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="book.css">
+
+
+</head>
+
+<body>
+
+
+    <div class="card">
+
+        <div class="heading">
+
+            <div class="searchfunction">
+
+                <h2 id="head1">The Book Haven</h2>
+
+                <div class="searchbar">
+                    <input type="text" id="search-bar" placeholder="  Search for a Book">
+                    <button onclick="searchBook()">Search</button>
+                    <button onclick="addBook()">Add</button>
+                    <button  onclick="removeBook()">Remove</button>
+                </div>
+
+            </div>
+            
+        </div>
+
+        
+        <div class="booksection">
+
+            
+
+            <div class="book1" id="book1">
+
+                <img src="https://i.pinimg.com/736x/04/8e/90/048e90a6c9eeda041d26587eb6f16746.jpg" id="img">
+        
+                <div class="title">
+                    <h3>Berserk</h3>
+                </div>
+    
+                <div class="buttondiv">
+                    <button class="button">Read</button>
+                    <button id="favourite" onclick="toggleFavorite(this)"><i class="ri-heart-fill"></i></button>
+                </div>
+                
+            </div>
+
+
+            <div class="book1" id="book2">
+
+                <img src="https://i.pinimg.com/736x/b7/04/84/b704840bc7f34c674937c8893e2f57b1.jpg" id="img">
+        
+                <div class="title">
+                    <h3>Darken Soul</h3>
+                </div>
+    
+                <div class="buttondiv">
+                    <button class="button">Read</button>
+                    <button id="favourite" onclick="toggleFavorite(this)"><i class="ri-heart-fill"></i></button>
+                </div>
+
+            </div>
+
+
+            <div class="book1" id="book3">
+
+                <img src="https://i.pinimg.com/564x/62/cb/af/62cbaf2f075c502965f4a680b62b8503.jpg" id="img">
+        
+                <div class="title">
+                    <h3>Musicona</h3>
+                </div>
+    
+                <div class="buttondiv">
+                    <button class="button">Read</button>
+                    <button id="favourite" onclick="toggleFavorite(this)"><i class="ri-heart-fill"></i></button>
+                </div>
+                
+            </div>
+
+            
+            <div class="book1" id="book4">
+
+                <img src="https://i.pinimg.com/564x/27/85/2d/27852d7dc1f7eb4373a5d64e0a1ba8f8.jpg" id="img">
+        
+                <div class="title">
+                    <h3>Elden Ring</h3>
+                </div>
+    
+                <div class="buttondiv">
+                    <button class="button">Read</button>
+                    <button id="favourite" onclick="toggleFavorite(this)"><i class="ri-heart-fill"></i></button>
+                </div>
+                
+            </div>
+
+            <!-- <div class="book1" id="book5">
+
+                <img src="https://i.pinimg.com/564x/e6/98/fb/e698fba317c1e0f3e7dd313921dbc77c.jpg" id="img">
+        
+                <div class="title">
+                    <h3>CryBaby</h3>
+                </div>
+    
+                <div class="buttondiv">
+                    <button class="button">Read</button>
+                </div>
+                
+            </div> -->
+
+        </div>
+
+    </div>
+
+    <script src="book.js"></script>
+    
+</body>
+</html>

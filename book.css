@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(48, 25, 69);
+}
+
+.card{
+    margin-top: 25px;
+    margin-left: 20px;
+    height: 650px;
+    width: 1480px;
+    background-image: url(https://img.freepik.com/free-photo/stacks-old-literature-wooden-shelves-generated-by-ai_188544-31758.jpg?t=st=1718555945~exp=1718559545~hmac=b709d0246dd18c0e852f7db670d0332a5e85012d6c2ec12fc482c0085af12c20&w=1060);
+    border-radius: 20px;
+}
+
+.heading{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#head1{
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 210px;
+    font-size: 35px;
+    color: rgb(198, 99, 42);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.searchbar button{
+    margin: 10px;
+    font-size: 18px;
+    font-weight:lighter;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(206, 89, 17);
+    box-shadow: 3px 3px rgb(111, 56, 22);
+}
+
+.bookbar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 500px;
+}
+
+.bookbar button{
+    margin: 10px;
+    font-size: 18px;
+    font-weight:lighter;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    box-shadow: 3px 3px rgb(99, 97, 97);
+}
+
+input{
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(123, 123, 123);
+}
+
+
+/* Book Css */
+
+
+
+.booksection{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+
+.book1{
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 2fr auto;
+    gap: 9px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 3px 2px 4px;
+    height: 250px;
+    width:200px;
+    margin-top: 30px;
+    margin-left: 50px;
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h3{
+    text-align: center;
+}
+
+
+#img{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+
+.button{
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    cursor:pointer;
+    
+}
+
+.buttondiv{
+    display: flex;
+    justify-content: center;
+}
+
+.favorite{
+    color: red;
+}
+
+#favourite{
+    margin-left: 10px;
+}
+
+.favorite-book {
+    border: none;
+    box-shadow: none;
+}
